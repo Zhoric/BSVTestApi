@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSVTestApi", "BSVTestApi\BSVTestApi.csproj", "{FA918914-4936-43BF-949C-D089B8CC6D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDVTest.BLL", "BDVTest.BLL\BDVTest.BLL.csproj", "{3B7F30BB-B156-4584-92EF-846613FCF6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDVTest.DAL", "BDVTest.DAL\BDVTest.DAL.csproj", "{CCD50C96-EAE2-4E2E-966B-52145F7FE2FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA918914-4936-43BF-949C-D089B8CC6D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA918914-4936-43BF-949C-D089B8CC6D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA918914-4936-43BF-949C-D089B8CC6D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA918914-4936-43BF-949C-D089B8CC6D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7F30BB-B156-4584-92EF-846613FCF6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7F30BB-B156-4584-92EF-846613FCF6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7F30BB-B156-4584-92EF-846613FCF6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7F30BB-B156-4584-92EF-846613FCF6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD50C96-EAE2-4E2E-966B-52145F7FE2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD50C96-EAE2-4E2E-966B-52145F7FE2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD50C96-EAE2-4E2E-966B-52145F7FE2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD50C96-EAE2-4E2E-966B-52145F7FE2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
