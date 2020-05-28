@@ -8,19 +8,6 @@ using BDVTest.DAL.Models;
 
 namespace BDVTest.BLL
 {
-    public interface IWorkSheetService
-    {
-        bool CreateWorkSheets(IList<BaseWorkSheetDto> baseWorkSheetDtos);
-        
-        IList<WorkSheetOneDto> ReadWorkSheetOneDataByTime(DateTime? time);
-        IList<WorkSheetTwoDto> ReadWorkSheetTwoDataByTime(DateTime? time);
-        
-        bool UpdateWorkSheetOneData(int id, WorkSheetOneDto workSheetOneDto);
-        bool UpdateWorkSheetTwoData(int id, WorkSheetTwoDto workSheetTwoDto);
-
-        bool DeleteWorkSheetOneData(int id);
-        bool DeleteWorkSheetTwoData(int id);
-    }
     public class WorkSheetService : IWorkSheetService
     {
         private ApplicationDbContext _applicationDbContext;
